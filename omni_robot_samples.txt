@@ -1,0 +1,274 @@
+Select Robot Type:        
+(1) Differential Drive    
+(2) Omnidirectional Drive 
+Enter Selection: 2
+Enter Wheel Radius: 1
+Enter Distance Between Left-Right Wheels: 1
+Enter Distance Between Front-Back Wheels: 1
+Enter Front Left Wheel Velocity (rev/s): 1
+Enter Front Right Wheel Velocity (rev/s):1
+Enter Back Left Wheel Velocity (rev/s): 1
+Enter Back Right Wheel Velocity (rev/s):1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     6.28319 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): -1
+Enter Front Right Wheel Velocity (rev/s):-1
+Enter Back Left Wheel Velocity (rev/s): -1
+Enter Back Right Wheel Velocity (rev/s):-1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        -6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     -6.28319 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): -1
+Enter Front Right Wheel Velocity (rev/s):1
+Enter Back Left Wheel Velocity (rev/s): 1
+Enter Back Right Wheel Velocity (rev/s):-1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     0 m/s
+Vy:                     6.28319 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): 1
+Enter Front Right Wheel Velocity (rev/s):-1
+Enter Back Left Wheel Velocity (rev/s): -1
+Enter Back Right Wheel Velocity (rev/s):1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m) 
+Velocity:       1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     0 m/s
+Vy:                     -6.28319 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): 1
+Enter Front Right Wheel Velocity (rev/s):-1
+Enter Back Left Wheel Velocity (rev/s): 1
+Enter Back Right Wheel Velocity (rev/s):-1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0 m/s
+Rotational Velocity:    -6.28319 rad/s
+Vx:                     0 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): -1
+Enter Front Right Wheel Velocity (rev/s):1
+Enter Back Left Wheel Velocity (rev/s): -1
+Enter Back Right Wheel Velocity (rev/s):1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m)
+Velocity:       1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0 m/s
+Rotational Velocity:    6.28319 rad/s
+Vx:                     0 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Front Left Wheel Velocity (rev/s): 0.15
+Enter Front Right Wheel Velocity (rev/s):-0.1
+Enter Back Left Wheel Velocity (rev/s): 0.15
+Enter Back Right Wheel Velocity (rev/s):-0.1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        Omnidirectional Drive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Front Left Wheel:
+Position:       (-0.5 m, 0.5 m)
+Velocity:       0.15 rev/s
+--------------------------------------
+Front Right Wheel:
+Position:       (0.5 m, 0.5 m) 
+Velocity:       -0.1 rev/s
+--------------------------------------
+Back Left Wheel:
+Position:       (-0.5 m, -0.5 m)
+Velocity:       0.15 rev/s
+--------------------------------------
+Back Right Wheel:
+Position:       (0.5 m, -0.5 m)
+Velocity:       -0.1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0.15708 m/s
+Rotational Velocity:    -0.785398 rad/s
+Vx:                     0.15708 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? n
+Try different model (y/n)? n

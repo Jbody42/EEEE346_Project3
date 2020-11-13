@@ -1,0 +1,231 @@
+Select Robot Type: 
+(1) Differential Drive
+(2) Omnidirectional Drive
+Enter Selection: 1
+Enter Wheel Radius: 1
+Enter Distance Between Wheels: 1
+Enter Left Wheel Velocity (rev/s): 1
+Enter Right Wheel Velocity (rev/s):1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     6.28319 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): 1
+Enter Right Wheel Velocity (rev/s):-1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       -1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0 m/s
+Rotational Velocity:    -12.5664 rad/s
+Vx:                     0 m/s
+Vy:                     0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): -1
+Enter Right Wheel Velocity (rev/s):1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0 m/s
+Rotational Velocity:    12.5664 rad/s
+Vx:                     0 m/s
+Vy:                     -0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): -1
+Enter Right Wheel Velocity (rev/s):-1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       -1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       -1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        -6.28319 m/s
+Rotational Velocity:    0 rad/s
+Vx:                     -6.28319 m/s
+Vy:                     -0 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): 0.1
+Enter Right Wheel Velocity (rev/s):0.15
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       0.1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       0.15 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0.785398 m/s
+Rotational Velocity:    0.314159 rad/s
+Vx:                     0.746958 m/s
+Vy:                     0.242701 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): 0.15
+Enter Right Wheel Velocity (rev/s):0.1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       0.15 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       0.1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        0.785398 m/s
+Rotational Velocity:    -0.314159 rad/s
+Vx:                     0.746958 m/s
+Vy:                     -0.242701 m/s
+--------------------------------------
+Try different velocities (y/n)? y
+Enter Left Wheel Velocity (rev/s): -0.1
+Enter Right Wheel Velocity (rev/s):-0.15
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       -0.1 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       -0.15 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        -0.785398 m/s
+Rotational Velocity:    -0.314159 rad/s
+Vx:                     -0.746958 m/s
+Vy:                     0.242701 m/s
+--------------------------------------
+Try different velocities (y/n)? y    
+Enter Left Wheel Velocity (rev/s): -0.15
+Enter Right Wheel Velocity (rev/s):-0.1
+--------------------------------------
+----------------Model-----------------
+--------------------------------------
+        DifferentialDrive
+--------------------------------------
+
+--------------------------------------
+----------------Wheels----------------
+--------------------------------------
+Left Wheel:
+Position:       (-0.5 m, 0 m)
+Velocity:       -0.15 rev/s
+--------------------------------------
+Right Wheel:
+Position:       (0.5 m, 0 m)
+Velocity:       -0.1 rev/s
+
+--------------------------------------
+--------------Robot State-------------
+--------------------------------------
+Linear Velocity:        -0.785398 m/s
+Rotational Velocity:    0.314159 rad/s
+Vx:                     -0.746958 m/s
+Vy:                     -0.242701 m/s
+--------------------------------------
+Try different velocities (y/n)? n
+Try different model (y/n)? n

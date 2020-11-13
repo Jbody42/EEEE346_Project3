@@ -1,0 +1,30 @@
+cout << endl;
+cout << "--------------------------------------" << endl;
+cout << "----------------Wheels----------------" << endl;
+cout << "--------------------------------------" << endl;
+
+cout << "Front Left Wheel: " << endl;
+frontLeftWheel.print();
+cout << "--------------------------------------" << endl;
+
+cout << "Front Right Wheel: " << endl;
+frontRightWheel.print();
+cout << "--------------------------------------" << endl;
+
+cout << "Back Left Wheel: " << endl;
+backLeftWheel.print();
+cout << "--------------------------------------" << endl;
+
+cout << "Back Right Wheel: " << endl;
+backRightWheel.print();
+
+cout << endl;
+
+cout << "--------------------------------------" << endl;
+cout << "--------------Robot State-------------" << endl;
+cout << "--------------------------------------" << endl;
+cout << "Linear Velocity:\t"		<< getVel()		<<  " m/s" << endl;
+cout << "Rotational Velocity:\t" << getRotVel()	<< " rad/s" << endl;
+cout << "Vx:\t\t\t" << getVx() << " m/s" << endl;
+cout << "Vy:\t\t\t" << getVy() << " m/s" << endl;
+cout << "--------------------------------------" << endl;
