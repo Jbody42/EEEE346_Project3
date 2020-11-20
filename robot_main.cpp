@@ -83,7 +83,7 @@ int main(void)
 			cin >> fbDist;
 
 			// Create Omni Robot
-			robot = new OmnidirectionalDriveRobot(radius,lrDist, fbDist);
+			robot = new OmnidirectionalDriveRobot(radius, lrDist, fbDist);
 
 			do{
 				// Query for the wheel velocities
