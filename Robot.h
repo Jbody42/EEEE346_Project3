@@ -18,7 +18,7 @@ class Robot{
 
     void setModel(string in_model);
 
-    virtual void print();
+    virtual void print() = 0;
 
 };
 #endif

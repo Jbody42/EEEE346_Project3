@@ -7,7 +7,7 @@
 
 using namespace std;
 
-DifferentialDriveRobot::DifferentialDriveRobot(double r, double d){
+DifferentialDriveRobot::DifferentialDriveRobot(double r, double d): MobileRobot(model){
     this-> wheelRadius = r;
     this-> wheelDistance = d;
 }
@@ -16,7 +16,7 @@ DifferentialDriveRobot::DifferentialDriveRobot(double r, double d){
 double DifferentialDriveRobot::getVel(){
     double linVel;
 
-    linVel = M_PI * r (leftWheel.getVelocity() + rightWheel.getVelocity());
+    linVel = M_PI * wheelRadius * (leftWheel.getVelocity() + rightWheel.getVelocity());
 
     return linVel;
 }
@@ -41,7 +41,7 @@ double DifferentialDriveRobot::getVx(){
 double DifferentialDriveRobot::getVy(){
     double vy;
 
-    vy = geVel() * sin(getRotVel());
+    vy = getVel() * sin(getRotVel());
 
     return vy;
 
