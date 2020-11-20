@@ -1,7 +1,7 @@
 #ifndef OMNIDIRECTIONALDRIVEROBOT_H
 #define OMNIDIRECTIONALDRIVEROBOT_H
 
-
+#define _USE_MATH_DEFINES
 #include <iostream>
 #include <math.h>
 #include "MobileRobot.h"

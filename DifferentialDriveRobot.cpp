@@ -1,13 +1,13 @@
 #include "DifferentialDriveRobot.h"
 #include <iostream>
 #include <stdio.h>
-#include <math.h>
 #define _USE_MATH_DEFINES
+#include <math.h>
 
 
 using namespace std;
 
-DifferentialDriveRobot::DifferentialDriveRobot(double r, double d): MobileRobot(model), leftWheel(r, 0, d/2), rightWheel(r, 0, d/2){
+DifferentialDriveRobot::DifferentialDriveRobot(double r, double d): MobileRobot(model), leftWheel(r, 0, d/2), rightWheel(r, 0, -d/2){
     this-> wheelRadius = r;
     this-> wheelDistance = d;
 }
@@ -15,18 +15,17 @@ DifferentialDriveRobot::DifferentialDriveRobot(double r, double d): MobileRobot(
 
 double DifferentialDriveRobot::getVel(){
     double linVel;
-    double pi = 3.14159;
 
-    linVel = pi * wheelRadius * (leftWheel.getVelocity() + rightWheel.getVelocity());
+    linVel = M_PI * wheelRadius * (leftWheel.getVelocity() + rightWheel.getVelocity());
 
     return linVel;
 }
 
 double DifferentialDriveRobot::getRotVel(){
     double rotVel;
-    double pi = 3.14159;
 
-    rotVel = ((2*pi*wheelRadius)/wheelDistance) * (leftWheel.getVelocity() - rightWheel.getVelocity());
+
+    rotVel = ((2*M_PI*wheelRadius)/wheelDistance) * (rightWheel.getVelocity() - leftWheel.getVelocity());
     
     return rotVel;
 }
