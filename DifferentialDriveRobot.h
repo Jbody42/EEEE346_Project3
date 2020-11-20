@@ -7,7 +7,8 @@
 
 using namespace std;
 
-class DifferentialDriveRobot : MobileRobot{
+class DifferentialDriveRobot : public MobileRobot{
+    private:
         Wheel leftWheel;
         Wheel rightWheel;
         double wheelDistance;
