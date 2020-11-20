@@ -26,10 +26,10 @@ class OmnidirectionalDriveRobot : public MobileRobot{
         double getVx();
         double getVy();
         void print();
-        void setFrontLeftWheelVel(double velocity);
-        void setFrontRightWheelVel(double velocity);
-        void setBackLeftWheelVel(double velocity);
-        void setBackRightWheelVel(double velocity);
+        void setFrontLeftWheelVelocity(double velocity);
+        void setFrontRightWheelVelocity(double velocity);
+        void setBackLeftWheelVelocity(double velocity);
+        void setBackRightWheelVelocity(double velocity);
 };
 
 

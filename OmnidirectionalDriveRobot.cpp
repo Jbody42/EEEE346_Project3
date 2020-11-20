@@ -15,7 +15,7 @@ OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, do
 double OmnidirectionalDriveRobot::getVel(){
     double vel;
     double phi;
-    double pi = 3.14;
+    double pi = 3.14159;
     
     vel = sqrt(pow(getVx(), 2)+pow(getVy(), 2));
     phi =  atan2(getVx(), -getVy());
@@ -30,7 +30,7 @@ double OmnidirectionalDriveRobot::getVel(){
 
 double OmnidirectionalDriveRobot::getRotVel(){
     double rotVel; 
-    double pi = 3.14;
+    double pi = 3.14159;
 
     rotVel = ((pi*wheelRadius)/(lrDist*fbDist))*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()-backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
     
@@ -41,7 +41,7 @@ double OmnidirectionalDriveRobot::getRotVel(){
 
 double OmnidirectionalDriveRobot::getVx(){
     double vx;
-    double pi = 3.14;
+    double pi = 3.14159;
     
     vx = ((pi*wheelRadius)/2)*(frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
  
@@ -51,7 +51,7 @@ double OmnidirectionalDriveRobot::getVx(){
 
 double OmnidirectionalDriveRobot::getVy(){
     double vy;
-    double pi = 3.14;
+    double pi = 3.14159;
     
     vy = ((pi*wheelRadius)/2)*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()-frontRightWheel.getVelocity());
  
@@ -97,22 +97,22 @@ void OmnidirectionalDriveRobot::print(){
 
 }
 
-    void OmnidirectionalDriveRobot::setFrontLeftWheelVel(double velocity){
+    void OmnidirectionalDriveRobot::setFrontLeftWheelVelocity(double velocity){
          
          frontLeftWheel.setVelocity(velocity);   
     }
         
 
-    void OmnidirectionalDriveRobot::setFrontRightWheelVel(double velocity){
+    void OmnidirectionalDriveRobot::setFrontRightWheelVelocity(double velocity){
         frontRightWheel.setVelocity(velocity);   
     }
 
 
-    void OmnidirectionalDriveRobot::setBackLeftWheelVel(double velocity){
+    void OmnidirectionalDriveRobot::setBackLeftWheelVelocity(double velocity){
         backLeftWheel.setVelocity(velocity);   
     }
 
 
-    void OmnidirectionalDriveRobot::setBackRightWheelVel(double velocity){
+    void OmnidirectionalDriveRobot::setBackRightWheelVelocity(double velocity){
         backRightWheel.setVelocity(velocity);   
     }
