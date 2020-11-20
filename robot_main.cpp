@@ -51,8 +51,8 @@ int main(void)
 
 				// Downcast to an Diff robot and set the wheel velocities
 				if( diff ){
-					diff->setLeftWheelVel(lVel);
-					diff->setRightWheelVel(rVel);
+					diff->setLeftWheelVelocity(lVel);
+					diff->setRightWheelVelocity(rVel);
 				}else{
 					cout << "Bad Diff Robot, check config\n";
 				}
@@ -99,10 +99,10 @@ int main(void)
 				// Downcast to an Omni robot and set the wheel velocities
 				OmnidirectionalDriveRobot* omni = dynamic_cast<OmnidirectionalDriveRobot*>(robot);
 				if(  omni ) {
-					omni->setFrontLeftWheelVel(flVel);
-					omni->setFrontRightWheelVel(frVel);
-					omni->setBackLeftWheelVel(blVel);
-					omni->setBackRightWheelVel(brVel);
+					omni->setFrontLeftWheelVelocity(flVel);
+					omni->setFrontRightWheelVelocity(frVel);
+					omni->setBackLeftWheelVelocity(blVel);
+					omni->setBackRightWheelVelocity(brVel);
 				}else{
 					cout << "Bad Omni Robot, check config\n";
 				}
