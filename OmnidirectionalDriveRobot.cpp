@@ -6,7 +6,8 @@ using namespace std;
 
 
 
-OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) : MobileRobot(model), frontLeftWheel(r, lrDist, fbDist), frontRightWheel(r, lrDist, fbDist), backLeftWheel(r, lrDist, fbDist), backRightWheel(r, lrDist, fbDist){
+OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) : MobileRobot(model), frontLeftWheel(r, .5*fbDist, .5*lrDist), frontRightWheel(r, .5*fbDist, -.5*lrDist), backLeftWheel(r, -.5*fbDist, .5*lrDist), backRightWheel(r, -.5*fbDist, -.5*lrDist){
+
     this->wheelRadius = r;
     this->lrDist = lrDist;
     this->fbDist = fbDist;
