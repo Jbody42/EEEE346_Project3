@@ -27,6 +27,7 @@ int main(void)
 
 		switch(type)
 		{
+		/*
 		case ROBOT_TYPE_DIFF:
 			// Query for Diff wheel radius and distances
 			double wheelDist;
@@ -65,7 +66,7 @@ int main(void)
 			}while( cin.get() != 'n' );
 
 			break;
-
+		*/
 		case ROBOT_TYPE_OMNI:
 
 			// Query for Omni wheel radius and distances

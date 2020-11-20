@@ -17,16 +17,17 @@ class OmnidirectionalDriveRobot : public MobileRobot{
         double fbDist;
         double wheelRadius;
     public:
-        OmnidirectionalDriveRobot(double r, double lrDist, double fbDist );
+        OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) ;
         double getVel();
         double getRotVel();
         double getVx();
         double getVy();
         void print();
-        void setFrontRightWheelVelocity(int velocity);
-        void setFrontLeftWheelVelocity(int velocity);
-        void setBackRightWheelVelocity(int velocity);
-        void setBackLeftWheelVelocity(int velocity);
+        void setFrontLeftWheelVel(double velocity);
+        void setFrontRightWheelVel(double velocity);
+        void setBackLeftWheelVel(double velocity);
+        void setBackRightWheelVel(double velocity);
 };
+
 
 #endif

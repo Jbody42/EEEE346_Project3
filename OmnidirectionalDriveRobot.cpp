@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) : MobileRobot(model){
+OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) : MobileRobot(model), frontLeftWheel(r, lrDist, fbDist), frontRightWheel(r, lrDist, fbDist), backLeftWheel(r, lrDist, fbDist), backRightWheel(r, lrDist, fbDist){
     this->wheelRadius = r;
     this->lrDist = lrDist;
     this->fbDist = fbDist;
@@ -92,3 +92,23 @@ void OmnidirectionalDriveRobot::print(){
     cout << "--------------------------------------" << endl;
 
 }
+
+    void OmnidirectionalDriveRobot::setFrontLeftWheelVel(double velocity){
+         
+         frontLeftWheel.setVelocity(velocity);   
+    }
+        
+
+    void OmnidirectionalDriveRobot::setFrontRightWheelVel(double velocity){
+        frontRightWheel.setVelocity(velocity);   
+    }
+
+
+    void OmnidirectionalDriveRobot::setBackLeftWheelVel(double velocity){
+        backLeftWheel.setVelocity(velocity);   
+    }
+
+
+    void OmnidirectionalDriveRobot::setBackRightWheelVel(double velocity){
+        backRightWheel.setVelocity(velocity);   
+    }
