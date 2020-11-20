@@ -1,11 +1,12 @@
 #include <iostream>
 #include "OmnidirectionalDriveRobot.h"
+#include "Wheel.h"
 
 using namespace std;
 
 
 
-OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ){
+OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, double fbDist ) : MobileRobot(model){
     this->wheelRadius = r;
     this->lrDist = lrDist;
     this->fbDist = fbDist;

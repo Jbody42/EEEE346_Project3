@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class OmnidirectionalDriveRobot : MobileRobot{
+class OmnidirectionalDriveRobot : public MobileRobot{
         Wheel frontLeftWheel;
         Wheel frontRightWheel;
         Wheel backLeftWheel;
