@@ -15,11 +15,12 @@ OmnidirectionalDriveRobot::OmnidirectionalDriveRobot(double r, double lrDist, do
 double OmnidirectionalDriveRobot::getVel(){
     double vel;
     double phi;
+    double pi = 3.14;
     
     vel = sqrt(pow(getVx(), 2)+pow(getVy(), 2));
     phi =  atan2(getVx(), -getVy());
 
-    if(((phi>M_PI)&&(phi<(2*M_PI)))||((phi<0)&&(phi>-M_PI))){
+    if(((phi>pi)&&(phi<(2*pi)))||((phi<0)&&(phi>-pi))){
         vel = -vel;
     }
     
@@ -29,8 +30,9 @@ double OmnidirectionalDriveRobot::getVel(){
 
 double OmnidirectionalDriveRobot::getRotVel(){
     double rotVel; 
+    double pi = 3.14;
 
-    rotVel = ((M_PI*wheelRadius)/(lrDist*fbDist))*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()-backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
+    rotVel = ((pi*wheelRadius)/(lrDist*fbDist))*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()-backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
     
     return rotVel;
  
@@ -39,8 +41,9 @@ double OmnidirectionalDriveRobot::getRotVel(){
 
 double OmnidirectionalDriveRobot::getVx(){
     double vx;
+    double pi = 3.14;
     
-    vx = ((M_PI*wheelRadius)/2)*(frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
+    vx = ((pi*wheelRadius)/2)*(frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()+frontRightWheel.getVelocity());
  
     return vx;
 
@@ -48,8 +51,9 @@ double OmnidirectionalDriveRobot::getVx(){
 
 double OmnidirectionalDriveRobot::getVy(){
     double vy;
+    double pi = 3.14;
     
-    vy = ((M_PI*wheelRadius)/2)*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()-frontRightWheel.getVelocity());
+    vy = ((pi*wheelRadius)/2)*(-frontLeftWheel.getVelocity()+frontRightWheel.getVelocity()+backLeftWheel.getVelocity()-frontRightWheel.getVelocity());
  
     return vy;
  
