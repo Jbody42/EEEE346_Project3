@@ -1,5 +1,7 @@
 #ifndef DifferentialDriveRobot_H
 #define DifferentialDriveRobot_H
+#define _USE_MATH_DEFINES
+#include <math.h>
 #include <iostream>
 #include <stdio.h>
 #include "MobileRobot.h"
